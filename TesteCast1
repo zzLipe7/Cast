@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class TesteCast {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double NumDouble = 7.85;
+        int NumInt = (int) NumDouble;
+
+        System.out.println
+        ("Valor original do Double: " + NumDouble);
+        System.out.println
+        ("Valor convertido para Int: " + NumInt);
+        
+
+    }
+}
