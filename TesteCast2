@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class TesteCast2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println
+        ("Insira o valor com casa decimal: ");
+        double num1 = sc.nextDouble();
+
+        int num2 = (int) num1;
+
+        System.out.println
+        ("O valor inteiro deste decimal é: " + num2);
+        sc.close();
+
+    }
+}
